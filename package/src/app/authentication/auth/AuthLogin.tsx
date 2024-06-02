@@ -37,7 +37,7 @@ const AuthLogin = ({ title, subtitle, subtext }: loginType) => (
           htmlFor="username"
           mb="5px"
         >
-          Username
+          Usuario o correo electrónico
         </Typography>
         <CustomTextField variant="outlined" fullWidth />
       </Box>
@@ -49,7 +49,7 @@ const AuthLogin = ({ title, subtitle, subtext }: loginType) => (
           htmlFor="password"
           mb="5px"
         >
-          Password
+          Contraseña
         </Typography>
         <CustomTextField type="password" variant="outlined" fullWidth />
       </Box>
@@ -62,7 +62,7 @@ const AuthLogin = ({ title, subtitle, subtext }: loginType) => (
         <FormGroup>
           <FormControlLabel
             control={<Checkbox defaultChecked />}
-            label="Remeber this Device"
+            label="Guardar contraseña"
           />
         </FormGroup>
         <Typography
@@ -74,13 +74,13 @@ const AuthLogin = ({ title, subtitle, subtext }: loginType) => (
             color: "primary.main",
           }}
         >
-          Forgot Password ?
+          Restablecer contraseña ?
         </Typography>
       </Stack>
     </Stack>
     <Box>
       <Button
-        color="primary"
+        color="success"
         variant="contained"
         size="large"
         fullWidth
@@ -88,7 +88,7 @@ const AuthLogin = ({ title, subtitle, subtext }: loginType) => (
         href="/"
         type="submit"
       >
-        Sign In
+        Iniciar sesión
       </Button>
     </Box>
     {subtitle}

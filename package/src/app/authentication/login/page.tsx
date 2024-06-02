@@ -7,6 +7,7 @@ import Logo from "@/app/(DashboardLayout)/layout/shared/logo/Logo";
 import AuthLogin from "../auth/AuthLogin";
 
 const Login2 = () => {
+  console.log("Login2 component is rendering");
   return (
     <PageContainer title="Login" description="this is Login page">
       <Box
@@ -14,7 +15,7 @@ const Login2 = () => {
           position: "relative",
           "&:before": {
             content: '""',
-            background: "radial-gradient(#d2f1df, #d3d7fa, #bad8f4)",
+            background: "radial-gradient(#FF0049, #FF0049, #FF0049)",
             backgroundSize: "400% 400%",
             animation: "gradient 15s ease infinite",
             position: "absolute",
@@ -55,7 +56,7 @@ const Login2 = () => {
                     color="textSecondary"
                     mb={1}
                   >
-                    Your Social Campaigns
+                    Aprende python con gamificacion
                   </Typography>
                 }
                 subtitle={
@@ -70,7 +71,7 @@ const Login2 = () => {
                       variant="h6"
                       fontWeight="500"
                     >
-                      New to Spike?
+                      Desea registarse?
                     </Typography>
                     <Typography
                       component={Link}
@@ -81,7 +82,7 @@ const Login2 = () => {
                         color: "primary.main",
                       }}
                     >
-                      Create an account
+                      Crear una cuenta
                     </Typography>
                   </Stack>
                 }

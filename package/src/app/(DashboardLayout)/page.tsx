@@ -11,7 +11,7 @@ import ProductSales from '@/app/(DashboardLayout)/components/dashboard/ProductSa
 
 const Dashboard = () => {
   return (
-    <PageContainer title="Dashboard" description="this is Dashboard">
+    <PageContainer title="Inicio" description="this is Dashboard">
       <Box>
         <Grid container spacing={3}>
           <Grid item xs={12} lg={8}>
